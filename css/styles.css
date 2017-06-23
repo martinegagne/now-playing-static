@@ -198,17 +198,53 @@ figure {
 
 /*MEDIA QUERIES*/
 @media (min-width: 768px) {
+
   .site-nav {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    max-width: 60px;
+    max-width: 80px;
     height:100%;
     z-index: 100;
     background-color: #ffffff;
-    display: block;
+    display: grid;
   }
 
+  .site-nav-list{
+    padding-top: 70px;
+  }
 
+  .site-nav-item {
+    float: none;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    padding:15px;
+}
+.site-logo{
+      z-index: 101;
+      width: 80px;
+      height:80px;
+      padding-right: 30px;
+}
+.movie{
+  margin-left: 80px;
+}
+
+.movie-overview{
+  display: block;
+}
+
+.about{
+  display: inline-block;
+  width: 50%;
+  float: right;
+}
+.footer-nav{
+  display: inline-block;
+  float: left;
+  width; 50%;
+  margin-left: 20px
+}
 }
