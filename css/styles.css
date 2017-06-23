@@ -61,7 +61,7 @@ figure {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  width:100%;
   z-index: 100;
   background-color: #ffffff;
 }
@@ -194,4 +194,21 @@ figure {
 
 .about > p {
   margin: 0;
+}
+
+/*MEDIA QUERIES*/
+@media (min-width: 768px) {
+  .site-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 60px;
+    height:100%;
+    z-index: 100;
+    background-color: #ffffff;
+    display: block;
+  }
+
+
 }
